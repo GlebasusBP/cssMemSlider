@@ -169,3 +169,32 @@ label:hover > .btn {
     transform: none;
   }
 }
+
+@media (max-width: 50rem) {
+
+  
+  .wrapper {
+    min-width: 23.75rem;
+  }
+
+  .slider {
+    flex-wrap: wrap;
+  }
+
+  .controls {
+    align-self: center;
+    transform: translateY(-250%);
+  }
+
+  .item__text{
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 30rem) {
+
+  body {
+    width: 460px;
+    margin: 0 auto;
+  }
+}
