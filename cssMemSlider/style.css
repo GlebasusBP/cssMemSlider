@@ -84,7 +84,8 @@ label:hover > .btn {
 #slide4:checked ~ .controls > #btn4 > .btn,
 #slide5:checked ~ .controls > #btn5 > .btn,
 #slide6:checked ~ .controls > #btn6 > .btn,
-#slide7:checked ~ .controls > #btn7 > .btn {
+#slide7:checked ~ .controls > #btn7 > .btn,
+#slide8:checked ~ .controls > #btn8 > .btn {
   background-color: transparent;
   border: 0.2rem solid rgb(52, 20, 83);
 }
@@ -95,7 +96,8 @@ label:hover > .btn {
 #slide4:checked ~ .controls > #btn4:hover > .btn,
 #slide5:checked ~ .controls > #btn5:hover > .btn,
 #slide6:checked ~ .controls > #btn6:hover > .btn,
-#slide7:checked ~ .controls > #btn7:hover > .btn {
+#slide7:checked ~ .controls > #btn7:hover > .btn,
+#slide8:checked ~ .controls > #btn8:hover > .btn {
   background-color: transparent;
   border: 0.2rem solid rgb(223, 248, 6);
 }
@@ -128,13 +130,18 @@ label:hover > .btn {
   transform: translateX(-600%);
 }
 
+#slide8:checked ~ .slider__inner {
+  transform: translateX(-700%);
+}
+
 #slide1:checked ~ .slider__inner > :nth-child(1) .item__text,
 #slide2:checked ~ .slider__inner > :nth-child(2) .item__text,
 #slide3:checked ~ .slider__inner > :nth-child(3) .item__text,
 #slide4:checked ~ .slider__inner > :nth-child(4) .item__text,
 #slide5:checked ~ .slider__inner > :nth-child(5) .item__text,
 #slide6:checked ~ .slider__inner > :nth-child(6) .item__text,
-#slide7:checked ~ .slider__inner > :nth-child(7) .item__text {
+#slide7:checked ~ .slider__inner > :nth-child(7) .item__text,
+#slide8:checked ~ .slider__inner > :nth-child(8) .item__text {
   display: inline-block;
 }
 
